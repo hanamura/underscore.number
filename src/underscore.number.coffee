@@ -64,10 +64,10 @@ _n.add = add = (nums...) ->
 
 _n.sub = sub = (base, nums...) ->
 	if nums.length
-		-base
-	else
 		base -= num for num in nums
 		base
+	else
+		-base
 
 _n.mul = mul = (nums...) ->
 	n = 0
