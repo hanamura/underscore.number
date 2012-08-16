@@ -70,7 +70,7 @@ _n.sub = sub = (base, nums...) ->
 		-base
 
 _n.mul = mul = (nums...) ->
-	n = 0
+	n = 1
 	n *= num for num in nums
 	n
 
