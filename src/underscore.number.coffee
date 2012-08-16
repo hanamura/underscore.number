@@ -76,10 +76,10 @@ _n.mul = mul = (nums...) ->
 
 _n.div = div = (base, nums...) ->
 	if nums.length
-		1 / base
-	else
 		base /= num for num in nums
 		base
+	else
+		1 / base
 
 # random
 _n.random = random = (nums...) ->
