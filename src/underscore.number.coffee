@@ -53,7 +53,7 @@ _n.round = round = (num, level) ->
 	e = Math.pow(10, level)
 	Math.round(num * e) / e
 
-_n.between = between = (from, to, ratio = 0.5) ->
+_n.between = between = (from, to, ratio) ->
 	from + (to - from) * ratio
 
 # add/sub/mul/div
