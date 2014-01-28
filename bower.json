@@ -1,0 +1,27 @@
+{
+  "name": "underscore.number",
+  "main": "underscore.number.js",
+  "version": "0.1.0",
+  "homepage": "https://github.com/hanamura/underscore.number",
+  "authors": [
+    "Taro Hanamura <m@hanamurataro.com>"
+  ],
+  "description": "Number-related functions missing from underscore.js",
+  "keywords": [
+    "underscore",
+    "number",
+    "utility",
+    "functions"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "underscore": "~1.5.2"
+  }
+}

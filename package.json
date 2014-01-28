@@ -1,16 +1,34 @@
 {
-	"name": "underscore.number",
-	"version": "0.1.0",
-	"repository": {
-		"type": "git",
-		"url": "git://github.com/hanamura/underscore.number.git"
-	},
-	"dependencies": {
-		"underscore": "1.3.3"
-	},
-	"devDependencies": {
-		"grunt-shell": ">= 0.1.2",
-		"grunt-contrib": ">= 0.1.4"
-	},
-	"main": "./index.js"
+  "name": "underscore.number",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hanamura/underscore.number.git"
+  },
+  "dependencies": {
+    "underscore": "~1.5.2"
+  },
+  "devDependencies": {
+    "grunt-contrib-coffee": "~0.8.2",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt": "~0.4.2",
+    "grunt-contrib-uglify": "~0.3.2"
+  },
+  "main": "./underscore.number.js",
+  "description": "Number-related functions missing from underscore.js",
+  "bugs": {
+    "url": "https://github.com/hanamura/underscore.number/issues"
+  },
+  "homepage": "https://github.com/hanamura/underscore.number",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "underscore",
+    "number",
+    "utility",
+    "functions"
+  ],
+  "author": "",
+  "license": "MIT"
 }
