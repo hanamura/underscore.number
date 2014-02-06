@@ -74,6 +74,9 @@
 
   _n.round = round = function(num, level) {
     var e;
+    if (level == null) {
+      level = 0;
+    }
     e = Math.pow(10, level);
     return Math.round(num * e) / e;
   };

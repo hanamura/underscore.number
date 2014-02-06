@@ -49,8 +49,8 @@ _n.nearer = nearer = (from, to, range) ->
 _n.average = average = (nums...) ->
 	add(nums...) / nums.length
 
-_n.round = round = (num, level) ->
-	e = Math.pow(10, level)
+_n.round = round = (num, level = 0) ->
+	e = Math.pow 10, level
 	Math.round(num * e) / e
 
 _n.between = between = (from, to, ratio) ->
