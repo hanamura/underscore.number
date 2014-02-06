@@ -63,6 +63,8 @@ _n.add = add = (nums...) ->
 	n
 
 _n.sub = sub = (base, nums...) ->
+	throw new Error if base is undefined
+
 	if nums.length
 		base -= num for num in nums
 		base
