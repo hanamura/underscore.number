@@ -127,6 +127,9 @@
   _n.div = div = function() {
     var base, num, nums, _i, _len;
     base = arguments[0], nums = 2 <= arguments.length ? __slice.call(arguments, 1) : [];
+    if (base === void 0) {
+      throw new Error;
+    }
     if (nums.length) {
       for (_i = 0, _len = nums.length; _i < _len; _i++) {
         num = nums[_i];

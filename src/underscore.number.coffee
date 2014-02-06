@@ -77,6 +77,8 @@ _n.mul = mul = (nums...) ->
 	n
 
 _n.div = div = (base, nums...) ->
+	throw new Error if base is undefined
+
 	if nums.length
 		base /= num for num in nums
 		base
