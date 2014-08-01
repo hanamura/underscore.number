@@ -1,7 +1,6 @@
 (function() {
   var add, average, between, clockwise, degToRad, div, mul, nearer, oldNum, oldNumber, pinch, radToDeg, random, round, sign, sub, _loop, _n,
-    __slice = [].slice,
-    _this = this;
+    __slice = [].slice;
 
   _n = {};
 
@@ -178,11 +177,13 @@
     oldNumber = this._.number;
     oldNum = this._.num;
     this._.number = this._.num = _n;
-    _n.noConflict = function() {
-      _this._.number = oldNumber;
-      _this._.num = oldNum;
-      return _n;
-    };
+    _n.noConflict = (function(_this) {
+      return function() {
+        _this._.number = oldNumber;
+        _this._.num = oldNum;
+        return _n;
+      };
+    })(this);
   }
 
 }).call(this);
