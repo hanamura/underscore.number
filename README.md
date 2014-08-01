@@ -1,5 +1,7 @@
 # Underscore.number
 
+Number-related functions missing from [underscore.js](http://underscorejs.org/).
+
 ## Installation
 
 ### npm
