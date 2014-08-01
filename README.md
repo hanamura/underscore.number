@@ -162,3 +162,7 @@ Converts degrees to radians.
 ```javascript
 _.num.degToRad(180); // 3.141592653589793 (Math.PI)
 ```
+
+## License
+
+MIT
