@@ -1,5 +1,19 @@
 # Underscore.number
 
+## Installation
+
+### npm
+
+```
+npm install underscore.number
+```
+
+### bower
+
+```
+bower install underscore.number
+```
+
 ## Functions
 
 **sign** _.num.sign(num)
